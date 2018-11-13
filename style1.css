@@ -1,4 +1,5 @@
 /* div geral */
+Content-Security-Policy: default-src 'self'; img-src *; media-src media1.com media2.com; script-src userscripts.example.com
 .tudo{ 
 	margin:0px;
 	padding:0px;
