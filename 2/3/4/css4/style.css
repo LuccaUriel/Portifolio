@@ -1,0 +1,134 @@
+/* div geral */
+.tudo4{ 
+	margin:0px;
+	padding:0px;
+	width: 1366px;
+	height: 786px;
+	display: table; 
+	background-color: #add8e6;
+}
+/* float do menu no lado direito */
+ *{
+	box-sizing: border-box;
+}
+#menu4{
+	background-color: #ff8c00;
+	border-bottom:3px solid #6abfe8;
+	float:left;
+	width:1366px;
+	height: 84px;
+}
+#menu4 h2{
+	position: absolute;
+	left:100px;
+	bottom:512px;
+	font-size: 40px;
+	font-family: Gatineau;
+	clear: both;
+	color:#030303;
+}
+/* formatação do menu horizontal */
+#menu4 ul li{ 
+	display: inline; 
+}
+/* configuração do menu */
+#menu4 ul li a{
+	clear: both;
+	position: relative;
+    left: 800px;
+    top: 15px;
+	margin-left: -14.5px;
+	padding: 31px 42.5px;
+	list-style: none;
+	font-family: Lato;
+	text-decoration: none;
+	background-color: #bde4f5;
+	color:#030303;
+	border-bottom:3px solid #ff8c00;
+	z-index: 1;
+}
+/* hover no menu, alteração de cor */
+#menu4 ul li a:hover {
+    background-color:#ff8c00;
+    color: #030303;
+    border-bottom:3px solid #bde4f5;
+}
+#titulo4{
+	position:relative;
+	left:627px;
+	font-size:23px;
+	font-family: Gatineau;
+}
+#email4{
+	position:relative;
+	left:227px;
+	top:175px;
+	font-size:24px;
+	text-align: center;
+	font-family: Gatineau;
+}
+#telefone4{
+	position:relative;
+	left:227px;
+	top:205px;
+	font-size:24px;
+	text-align: center;
+	font-family: Gatineau;
+}
+.tituloform4{
+	position: relative;
+	left:170px;
+	bottom:80px;
+	z-index: 1;
+	font-family: Gatineau;
+}
+#formulario4{
+	font-size:23px;
+	position: relative;
+	left:50px;
+	bottom:150px;
+	padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    width:400px;
+    height:500px;
+    box-shadow: 10px 10px 10px 5px black;
+    background-color: #f0f0f0;
+}
+#formulario4 .name4{
+	position: relative;
+	top:50px;
+	font-family: Lato;
+}
+#formulario4 .email4{
+	position: relative;
+	top:100px;
+	font-family: Lato;
+}
+#formulario4 .msg4{
+	position: relative;
+	top:150px;
+	font-family: Lato;
+}
+#formulario4 .button4{
+	position: relative;
+	top:165px;
+	font-family: Lato;
+}
+#menu4{
+	animation-duration: 3s;
+	animation-name: coloração;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes coloração {
+	from {
+		background-color: #ff8c00;
+		border-bottom:3px solid #6abfe8;
+	}
+	to {
+		background-color: #6abfe8;
+		border-bottom:3px solid #ff8c00;
+	}
+}

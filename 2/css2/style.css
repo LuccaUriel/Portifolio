@@ -1,0 +1,144 @@
+/* div geral */
+.tudo2{ 
+	margin:0px;
+	padding:0px;
+	width: 1366px;
+	height: 786px;
+	display: table; 
+	background-color: #add8e6;
+}
+/* float do menu no lado direito */
+ *{
+	box-sizing: border-box;
+}
+#menu2{
+	background-color: #ff8c00;
+	border-bottom:3px solid #6abfe8;
+	float:left;
+	width:1366px;
+	height: 84px;
+}
+#menu2 h2{
+	position: absolute;
+	left:100px;
+	bottom:512px;
+	font-size: 40px;
+	font-family: Gatineau;
+	clear: both;
+	color:#030303;
+}
+/* formatação do menu horizontal */
+#menu2 ul li{ 
+	display: inline; 
+}
+/* configuração do menu */
+#menu2 ul li a{
+	clear: both;
+	position: relative;
+    left: 800px;
+    top: 15px;
+	margin-left: -14.5px;
+	padding: 31px 42.5px;
+	list-style: none;
+	font-family: Lato;
+	text-decoration: none;
+	background-color: #bde4f5;
+	color:#030303;
+	border-bottom:3px solid #ff8c00;
+	z-index: 1;
+}
+/* hover no menu, alteração de cor */
+#menu2 ul li a:hover {
+    background-color:#ff8c00;
+    color: #030303;
+    border-bottom:3px solid #bde4f5;
+}
+.Titulo12{
+	position: relative;
+	left: 270px;
+	top:45px;
+	color:#030303;
+	font-family: Gatineau;
+}
+.Titulo22{
+	position: relative;
+	left: 820px;
+	bottom:15px;
+	color:#030303;
+	font-family: Gatineau;
+}
+#pic2 .ferramentas2{
+	position:relative;
+	right:25px;
+	bottom:175px;
+	border-top:3px solid #111111;
+	border-left:3px solid #111111;
+	border-right:3px solid #111111;
+	border-bottom:3px solid #111111;
+	margin-left: -4px
+}
+#pic2 .RPGM2{
+	position:relative;
+	left:350px;
+	border-bottom:3px solid #111111;
+	border-left:3px solid #111111;
+	border-right:3px solid #111111;
+}
+#pic2 .game2{
+	position:relative;
+	left:150px;
+}
+ *{
+	box-sizing: border-box;
+}
+.subtitulo12{
+	float:left;
+	width:50%;
+	position: relative;
+	left:300px;
+	color:#030303;
+	font-family: Gatineau;
+}
+.subtitulo22{
+	position: relative;
+	right:30px;
+	color:#030303;
+	text-align: center;
+	font-family: Gatineau;
+}
+.content12{
+	float:left;
+	width:50%;
+	position: relative;
+	left: 180px;
+	bottom:16px;
+	font-size: 18px;
+	color:#030303;
+	text-align: left;
+	font-family: Lato;
+}
+.content22{
+	position: relative;
+	left: 95px;
+	font-size: 18px;
+	color:#030303;
+	text-align: left;
+	font-family: Lato;
+}
+#menu2{
+	animation-duration: 3s;
+	animation-name: coloração;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes coloração {
+	from {
+		background-color: #ff8c00;
+		border-bottom:3px solid #6abfe8;
+	}
+	to {
+		background-color: #6abfe8;
+		border-bottom:3px solid #ff8c00;
+	}
+}
